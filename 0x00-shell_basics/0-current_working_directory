@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cwd=$(pwd)
-absolute_path=$(cd "$cwd" && pwd)
+cwd=$(pwd -P)
+echo "$cwd"
 
-echo "
-/root/alx-system_engineering-devops/0x00-shell_basics: $absolute_path"
