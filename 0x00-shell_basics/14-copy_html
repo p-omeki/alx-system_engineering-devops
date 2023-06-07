@@ -1,0 +1,2 @@
+#!/bin/bash
+pwd | { read -r cwd && parent_dir=$(dirname "$cwd") && cp -u "$cwd"/*.html "$parent_dir"; }
