@@ -1,2 +1,2 @@
 #!/bin/bash
-0 string SCHOOL School data
+file -C -m /dev/null -f /usr/share/misc/magic 0 string SCHOOL School data
