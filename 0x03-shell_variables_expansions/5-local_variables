@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Local variables:"
+compgen -v | while read var; do
+    echo "$var=${!var}"
+done
+
+echo "Environment variables:"
+env
+
+echo "Functions:"
+compgen -A function
+
+
