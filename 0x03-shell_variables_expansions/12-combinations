@@ -1,0 +1,1 @@
+#!/bin/echo a{a..n} b{a..z} c{a..z} d{a..z} e{a..z} f{a..z} g{a..z} h{a..z} i{a..z} j{a..z} k{a..z} l{a..z} m{a..z} np{a..z} o{a..n} p{a..z} q{a..z} r{a..z} s{a..z} t{a..z} u{a..z} v{a..z} w{a..z} x{a..z} y{a..z} z{a..z} | grep -v oo
